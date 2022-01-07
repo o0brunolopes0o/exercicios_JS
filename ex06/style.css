@@ -1,0 +1,18 @@
+#listaFilmes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#listaFilmes li{
+    background-color: rgba(199, 199, 199, 0.856);
+    height: 150px;
+    width: auto;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(0 0 0 / 70%);
+}
+
